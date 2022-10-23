@@ -1,0 +1,6 @@
+C:/Users/User/mp2-lab1-set/cmake/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/mp2-lab1-set/cmake/CMakeFiles/ZERO_CHECK.dir
+C:/Users/User/mp2-lab1-set/cmake/src/CMakeFiles/set.dir
+C:/Users/User/mp2-lab1-set/cmake/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/User/mp2-lab1-set/cmake/gtest/CMakeFiles/gtest.dir
+C:/Users/User/mp2-lab1-set/cmake/test/CMakeFiles/test_set.dir

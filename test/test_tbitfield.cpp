@@ -273,7 +273,7 @@ TEST(TBitField, invert_plus_and_operator_on_different_size_bitfield)
 TEST(TBitField, can_invert_many_random_bits_bitfield)
 {
   const int size = 38;
-  TBitField bf(size), negBf(size), expNegBf(size);
+  TBitField bf(size), negBf(size), expNegBf(size);//битовое поле
 
   std::vector<int> bits;
   bits.push_back(0);
