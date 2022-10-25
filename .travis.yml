@@ -1,16 +1,14 @@
 language: cpp
-matrix:
-  include:
-    - os: linux
-      compiler: gcc
-    - os: osx
-      compiler: clang
+compiler:
+  - gcc
+  - clang
 before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../mp2-lab1-set
+  - cmake ../mp2-lab2-matrix
   - make -j
-  - ./bin/test_set --gtest_list_tests
+  - cd ./bin/
+  - ./test_matrix
 notifications:
   email: false
